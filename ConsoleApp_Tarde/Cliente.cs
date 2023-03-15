@@ -59,5 +59,9 @@ namespace ConsoleApp_Tarde
         {
             return Telefone;
         }
+        public string ExibirDados()
+        {
+            return Nome + " Telefone" + Telefone + Endereco.EnderecoCompleto();
+        }
     }
 }

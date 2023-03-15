@@ -9,20 +9,20 @@ namespace ConsoleApp_Tarde.Heranca2
     public class Veiculo
     {
         public string cor;
-        public int quantidadedeRodas;
-        public int quantidadedeAssentos;
+        public int quantidadeRodas;
+        public int quantidadeAssentos;
         public bool TemMotor;
 
         public string ExibirDados()
         {
             if (TemMotor)
             {
-                return "Tem motor" + cor + " " + quantidadedeAssentos + " " + quantidadedeRodas;
+                return "Tem motor" + cor + " " + quantidadeAssentos + " " + quantidadeRodas;
             }
 
             else
             {
-                return cor + " " + quantidadedeAssentos + " " + quantidadedeRodas;
+                return cor + " " + quantidadeAssentos + " " + quantidadeRodas;
             }
         }
     }

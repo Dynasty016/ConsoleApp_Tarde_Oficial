@@ -19,6 +19,11 @@ namespace ConsoleApp_Tarde
             Valor = valor;
         }
 
+        public string ExibirDados()
+        {
+            return "Descrição" + Descricao + " R$ " + Valor;
+        }
+
         public int getId()
         {
             return Id;

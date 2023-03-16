@@ -13,7 +13,6 @@ namespace ConsoleApp_Tarde
         private string Telefone;
         private Endereco Endereco;
 
-
         public Cliente(int id, string nome, string telefone, Endereco endereco)
         {
             Id = id;
